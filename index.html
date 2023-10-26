@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Amazon.com, Spend less Smile more</title>
+  <link rel="Shortcut Icon" type="image/png" href="./Image/Amazon_icon" />
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="nav-logo border">
+        <a href="https://www.amazon.com/">
+          <div class="logo"></div>
+        </a>
+      </div>
+      <div class="nav-address border">
+        <p class="address-first">Deliver to</p>
+        <div class="add-icon">
+          <!-- Here put logo -->
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="address-second">India</p>
+        </div>
+      </div>
+      <div class="nav-search">
+        <select name="" id="" class="search-select">
+          <option value="">All</option>
+          <option value="">Art & Crafts</option>
+          <option value="">Automitive</option>
+          <option value="">Baby</option>
+          <option value="">Beauty & Personal Care</option>
+          <option value="">Book</option>
+          <option value="">Boy's faishon</option>
+          <option value="">Computer</option>
+          <option value="">Deals</option>
+          <option value="">Digital Music</option>
+          <option value="">Electronics</option>
+          <option value="">Girl's faishon</option>
+          <option value="">Health & House sold</option>
+          <option value="">Home Kitchen</option>
+        </select>
+        <input type="text" placeholder="Search Amazon" class="search-input" />
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="nav-lang border">
+        <a
+          href="https://www.amazon.com/customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2Fref%3Dnav_logo&ref_=topnav_lang_ais">
+          <div class="cart"><i class="fa-solid fa-language"></i></div>
+          <p>Language</p>
+        </a>
+      </div>
+      <div class="nav-singin border">
+        <a
+          href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">
+          <p><span>Hello, sing in</span></p>
+          <p class="nav-second">Account & Lists</p>
+        </a>
+      </div>
+      <div class="nav-returns border">
+        <a
+          href="https://www.amazon.com/ap/signin?_encoding=UTF8&accountStatusPolicy=P1&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Forder-history%3Fie%3DUTF8%26ref_%3Dnav_orders_first&pageId=webcs-yourorder&showRmrMe=1">
+          <p><span>Returns</span></p>
+          <p class="nav-second">& orders</p>
+        </a>
+      </div>
+
+      <div class="nav-cart border">
+        <a
+          href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%2F%3F_encoding%3DUTF8%26_encoding%3DUTF8%26content-id%3Damzn1.sym.582ec844-1ba3-41bb-97c5-03abbd9905d9%26k%3Dtoys%26pd_rd_r%3Dbbc06f1e-27ce-448b-a212-0e7cbdde4a04%26pd_rd_w%3D8Zzjr%26pd_rd_wg%3DMcW5D%26pf_rd_p%3D582ec844-1ba3-41bb-97c5-03abbd9905d9%26pf_rd_r%3DQ0E697P4CAVNY8X89WVC%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">
+          <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+          <p>Cart</p>
+        </a>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-all">All</div>
+      <div class="panel-option">
+        <p>Today's Deals</p>
+        <p>Costumer Service</p>
+        <p>Registry</p>
+        <p>Gift Card</p>
+        <p>Sell</p>
+      </div>
+      <div class="panel-deals">Shop deals in Electronics</div>
+    </div>
+  </header>
+  <div class="hero-section">
+    <div class="hero-messege">
+      You are on Amazon.com You can also show on Amazon India for millions of
+      products with fast local delivery.
+      <a href="https://www.amazon.com/">Click here to go to Amazon.in</a>
+    </div>
+  </div>
+  <div class="shop-section">
+    <div class="box1 box">
+      <div class="box-content">
+        <h2>Clothes</h2>
+        <div class="box-imag" style="background-image: url('./Image/box1_image.jpg')"></div>
+        <a
+          href="https://www.amazon.com/gp/goldbox/?ie=UTF8&ref_=nav_cs_gb&deals-widget=%257B%2522version%2522%253A1%252C%2522viewIndex%2522%253A0%252C%2522presetId%2522%253A%252215E8DB96732AF8CA9C14916141BB1C4C%2522%252C%2522departments%2522%253A%255B%25227147440011%2522%252C%25227192394011%2522%252C%2522679337011%2522%252C%25226358543011%2522%255D%252C%2522sorting%2522%253A%2522FEATURED%2522%257D&content-id=amzn1.sym.b0c3902d-ae70-4b80-8f54-4d0a3246745a">See
+          more</a>
+      </div>
+    </div>
+    <div class="box2 box">
+      <div class="box-content">
+        <h2>Health & Personal Care</h2>
+        <div class="box-imag" style="background-image: url('./Image/box2_image.jpg')"></div>
+        <a
+          href="https://www.amazon.com/s?i=specialty-aps&bbn=16225006011&rh=n%3A%2116225006011%2Cn%3A3777891&_encoding=UTF8&content-id=amzn1.sym.eab778f7-37cf-4c6b-9552-5370900592a9&ref=pd_gw_unk">See
+          more</a>
+      </div>
+    </div>
+    <div class="box3 box">
+      <div class="box-content">
+        <h2>Furniture</h2>
+        <div class="box-imag" style="background-image: url('./Image/box3_image.jpg')"></div>
+        <a
+          href="https://www.amazon.com/s?k=home+decor&_encoding=UTF8&content-id=amzn1.sym.6150d902-4be3-4eda-9f76-402f3751bee6&ref=pd_gw_unk">See
+          more</a>
+      </div>
+    </div>
+    <div class="box4 box">
+      <div class="box-content">
+        <h2>Electronic's</h2>
+        <div class="box-imag" style="background-image: url('./Image/box4_image.jpg')"></div>
+        <a
+          href="https://www.amazon.com/b/?_encoding=UTF8&node=23508887011&content-id=amzn1.sym.12129333-2117-4490-9c17-6d31baf0582a&ref_=pd_gw_unk">See
+          more</a>
+      </div>
+    </div>
+    <div class="box5 box">
+      <div class="box-content">
+        <h2>Beauty Pics</h2>
+        <div class="box-imag" style="background-image: url('./Image/box5_image.jpg')"></div>
+        <a href="https://www.amazon.com/international-shipping-beauty/b?ie=UTF8&node=16225006011">See more</a>
+      </div>
+    </div>
+    <div class="box6 box">
+      <div class="box-content">
+        <h2>Pet Care</h2>
+        <div class="box-imag" style="background-image: url('./Image/box6_image.jpg')"></div>
+        <a
+          href="https://www.amazon.com/s?k=toys&_encoding=UTF8&content-id=amzn1.sym.582ec844-1ba3-41bb-97c5-03abbd9905d9&ref=pd_gw_unk">See
+          more</a>
+      </div>
+    </div>
+    <div class="box7 box">
+      <div class="box-content">
+        <h2>New arrival in Toys</h2>
+        <div class="box-imag" style="background-image: url('./Image/box7_image.jpg')"></div>
+        <a
+          href="https://www.amazon.com/s?k=toys&_encoding=UTF8&content-id=amzn1.sym.582ec844-1ba3-41bb-97c5-03abbd9905d9&ref=pd_gw_unk">See
+          more</a>
+      </div>
+    </div>
+    <div class="box8 box">
+      <div class="box-content">
+        <h2>Discover Faishon Trend</h2>
+        <div class="box-imag" style="background-image: url('./Image/box8_image.jpg')"></div>
+        <a
+          href="https://www.amazon.com/s?k=spring+fashion+trends&_encoding=UTF8&content-id=amzn1.sym.b14a5e39-de66-4033-bb36-c04fed7f5597&ref=pd_gw_unk">See
+          more</a>
+      </div>
+    </div>
+    <div class="box9 box">
+      <div class="box-content">
+        <h2>Toys Under $500</h2>
+        <div class="box-imag" style="background-image: url('./Image/Babytoys.jpg')"></div>
+        <a
+          href="https://www.amazon.com/s?i=toys-and-games&bbn=165793011&rh=n%3A165793011%2Cp_36%3A-3000&dc&_encoding=UTF8&content-id=amzn1.sym.eb39b83d-c690-496d-9f16-0a9bd66ca6c8&rnid=386491011&ref=pd_gw_unk">See
+          more</a>
+      </div>
+    </div>
+    <div class="box10 box">
+      <div class="box-content">
+        <h2>For your Fitness Needs</h2>
+        <div class="box-imag" style="
+              background-image: url('./Image/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg');
+            "></div>
+        <a
+          href="https://www.amazon.com/s?k=work+from+home+fitness&_encoding=UTF8&content-id=amzn1.sym.2c73d1ae-9178-422f-ae3b-1b5628bd95bb&ref=pd_gw_unk">See
+          more</a>
+      </div>
+    </div>
+    <div class="box11 box">
+      <div class="box-content">
+        <h2>Player's paradise starts here</h2>
+        <div class="box-imag" style="background-image: url('./Image/player.jpg')"></div>
+        <a
+          href="https://www.amazon.com/s?k=video+gaming&_encoding=UTF8&content-id=amzn1.sym.4b335ede-a344-46a5-af28-95a1242a7034&ref=pd_gw_unk">See
+          more</a>
+      </div>
+    </div>
+    <div class="box12 box">
+      <div class="box-content">
+        <h2>Home & Kitchen Under $30</h2>
+        <div class="box-imag" style="background-image: url('./Image/Kettering.jpg')"></div>
+        <a
+          href="https://www.amazon.com/gcx/Kitchen-&-Bath-Renovation/gfhz/events/?_encoding=UTF8&categoryId=SP23-Kitchen-Bath&content-id=amzn1.sym.25b7ec97-d855-4cd5-b1b3-cea04489edc6&ref_=pd_gw_unk">See
+          more</a>
+      </div>
+    </div>
+    <div class="box13 box">
+      <div class="box-content">
+        <h2>Home refresh ideas</h2>
+        <div class="box-imag" style="background-image: url('./Image/home\ refresh.jpg')"></div>
+        <a
+          href="https://www.amazon.com/gcx/Kitchen-&-Bath-Renovation/gfhz/events/?_encoding=UTF8&categoryId=SP23-Kitchen-Bath&content-id=amzn1.sym.25b7ec97-d855-4cd5-b1b3-cea04489edc6&ref_=pd_gw_unk">See
+          more</a>
+      </div>
+    </div>
+    <div class="box14 box">
+      <div class="box-content">
+        <h2>Shop activity trackers and smartwatches</h2>
+        <div class="box-imag" style="background-image: url('./Image/Smart\ watch.jpg')"></div>
+        <a
+          href="https://www.amazon.com/s?k=activity+trackers+and+smartwatches&_encoding=UTF8&content-id=amzn1.sym.33f8f65b-b95c-44af-8b89-e59e69e79828&ref=pd_gw_unk">See
+          more</a>
+      </div>
+    </div>
+    <div class="box15 box">
+      <div class="box-content">
+        <h2>Upgrade your office furniture</h2>
+        <div class="box-imag" style="background-image: url('./Image/upgrade\ your\ office.jpg')"></div>
+        <a
+          href="https://www.amazon.com/s?i=garden&srs=117030914011&bbn=1063306&rh=n%3A1055398%2Cn%3A1063306%2Cp_90%3A8308921011&s=price-desc-rank&_encoding=UTF8&content-id=amzn1.sym.664445f4-e24f-42c8-8613-1c15be2d6a54&ref=roarr_gw_1023_Furniture_OD_bf_DSCC">See
+          more</a>
+      </div>
+    </div>
+    <div class="box16 box">
+      <div class="box-content">
+        <h2>Laptop & Accessories</h2>
+        <div class="box-imag" style="background-image: url('./Image/assocrise.jpg')"></div>
+        <a
+          href="https://www.amazon.com/b/?_encoding=UTF8&node=16225009011&content-id=amzn1.sym.5232c45b-5929-4ff0-8eae-5f67afd5c3dc&ref_=pd_gw_unk">See
+          more</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <a href="./index.html">
+      <div class="foot-panel1">Back to top</div>
+    </a>
+    <div class="foot-panel2">
+      <ul>
+        <p>Get to know Us</p>
+        <a href="https://www.amazon.jobs/en/">Careers</a>
+        <a href="https://www.aboutamazon.com/">Blog</a>
+        <a href="https://www.aboutamazon.com/">About Amazon</a>
+        <a href="https://ir.aboutamazon.com/overview/default.aspx">Investor Relations</a>
+        <a href="https://www.amazon.com/gp/browse.html?node=2102313011&ref_=footer_devices">Amazon Devices</a>
+        <a href="https://www.amazon.science/">Amazon Science</a>
+      </ul>
+      <ul>
+        <p>Make Money with Us</p>
+        <a href="https://sell.amazon.com/?ref_=asus_soa_rd&ld=AZFSSOA&ref_=footer_soa">Sell products on Amazon</a>
+        <a href="https://sell.amazon.com/programs/amazon-business?ref_=asus_soa_rd&ld=usb2bunifooter&ref_=footer_b2b">Sell
+          on Amazon Business</a>
+        <a href="https://developer.amazon.com/">Sell app on Amazon</a>
+        <a href="https://affiliate-program.amazon.com/">Become an Affiliate</a>
+        <a href="https://advertising.amazon.com/?ref=ext_amzn_ftr">Advertise Your Products</a>
+        <a href="https://kdp.amazon.com/en_US/">Self-Publish with Us</a>
+        <a href="https://go.thehub-amazon.com/amazon-hub-locker">Host an Amazon Hub</a>
+        <a href="https://www.amazon.com/b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore">See More Make
+          Money</a>
+        <a href="https://www.amazon.com/b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore">with Us</a>
+      </ul>
+      <ul>
+        <p>Amazon Payment Products</p>
+        <a href="https://www.amazon.com/dp/B07984JN3L?plattr=ACOMFO&ie=UTF-8">Amazon Business Card</a>
+        <a href="https://www.amazon.com/gp/browse.html?node=16218619011&ref_=footer_swp">Shop with Points</a>
+        <a href="https://www.amazon.com/gp/browse.html?node=10232440011&ref_=footer_reload_us">Reload Your Balance</a>
+        <a href="https://www.amazon.com/gp/browse.html?node=388305011&ref_=footer_tfx">Amazon Currency Converter</a>
+      </ul>
+      <ul>
+        <p>Let Us Help You</p>
+        <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid">Amazon
+          and COVID-19</a>
+        <a href="https://www.amazon.com/gp/css/homepage.html?ref_=footer_ya">Your Account</a>
+        <a
+          href="https://www.amazon.com/ap/signin?_encoding=UTF8&accountStatusPolicy=P1&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Forder-history%3Fie%3DUTF8%26ref_%3Dfooter_yo&pageId=webcs-yourorder&showRmrMe=1">Your
+          Orders</a>
+        <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates">Shipping
+          Rates & Policies</a>
+        <a
+          href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fspr%2Freturns%2Fhomepage%2Fhomepage.html%3Fref_%3Dfooter_hy_f_4&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_psr_desktop_us&openid.mode=checkid_setup&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Return
+          & Replacement</a>
+        <a
+          href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fspr%2Freturns%2Fhomepage%2Fhomepage.html%3Fref_%3Dfooter_hy_f_4&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_psr_desktop_us&openid.mode=checkid_setup&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Manage
+          Your Content and Device</a>
+        <a href="https://www.amazon.com/404">Amazon Assistante</a>
+        <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he">Help</a>
+      </ul>
+    </div>
+    <a href="https://www.amazon.com/">
+      <div class="foot-panel3">
+        <div class="foot-panel3-logo" style="background-image: url('./Image/amazon_logo.png')"></div>
+      </div>
+    </a>
+    <div class="foot-panel5">
+      <ul>
+        <span class="foot-title">
+          <p>Amazon Music</p>
+        </span>
+        <a href="https://music.amazon.com/?ref=dm_aff_amz_com">Stream millions</a>
+        <a href="https://music.amazon.com/?ref=dm_aff_amz_com"> of songs</a>
+        <p>Amp</p>
+        <a href="https://www.onamp.com/">Host your own </a>
+        <a href="https://www.onamp.com/">live radio show</a>
+        <a href="https://www.onamp.com/">with</a>
+        <a href="https://www.onamp.com/">music you love</a>
+        <p>IMDb</p>
+        <a href="https://www.imdb.com/">Movies, TV</a>
+        <a href="https://www.imdb.com/">& Celebrities</a>
+        <p>Ring</p>
+        <a href="https://ring.com/">Smart Home</a>
+        <a href="https://ring.com/">Security Systems</a>
+      </ul>
+      <ul>
+        <span class="foot-title">
+          <p>Amazon Advertising</p>
+        </span>
+        <a href="https://advertising.amazon.com/?ref=footer_advtsing_amzn_com">Find, attract, and</a>
+        <a href="https://advertising.amazon.com/?ref=footer_advtsing_amzn_com"> engage</a>
+        <a href="https://advertising.amazon.com/?ref=footer_advtsing_amzn_com">customers</a>
+        <p>AmazonGlobal</p>
+        <a href="https://www.amazon.com/gp/browse.html?node=230659011&ref_=footer_amazonglobal">Ship Orders</a>
+        <a href="https://www.amazon.com/gp/browse.html?node=230659011&ref_=footer_amazonglobal">Internationally</a>
+        <p>IMDbPro</p>
+        <a href="https://pro.imdb.com/in?redirectUrl=http%3A%2F%2Fpro.imdb.com%2F%3Fref_%3Damzn_nav_ftr">Get Info</a>
+        <a
+          href="https://pro.imdb.com/in?redirectUrl=http%3A%2F%2Fpro.imdb.com%2F%3Fref_%3Damzn_nav_ftr">Professionals</a>
+        <a href="https://pro.imdb.com/in?redirectUrl=http%3A%2F%2Fpro.imdb.com%2F%3Fref_%3Damzn_nav_ftr">
+          Entertainment</a>
+        <a href="https://pro.imdb.com/in?redirectUrl=http%3A%2F%2Fpro.imdb.com%2F%3Fref_%3Damzn_nav_ftr">Need</a>
+        <p>eero WiFi</p>
+        <a href="https://eero.com/">Stream 4K Video</a>
+        <a href="https://eero.com/">in Every Room</a>
+      </ul>
+      <ul>
+        <span class="foot-title">
+          <p>6pm</p>
+        </span>
+        <a href="https://www.6pm.com/">Score deals</a>
+        <a href="https://www.6pm.com/">on fashion brands</a>
+        <p>Home Services</p>
+        <a href="https://www.amazon.com/gp/browse.html/ref=vas_sf_load_?node=8098158011">Experienced Pros</a>
+        <a href="https://www.amazon.com/gp/browse.html/ref=vas_sf_load_?node=8098158011">Happiness</a>
+        <a href="https://www.amazon.com/gp/browse.html/ref=vas_sf_load_?node=8098158011">Guarantee</a>
+        <p>Kindle Direct Publishing</p>
+        <a href="https://kdp.amazon.com/en_US/">Indie Digital &</a>
+        <a href="https://kdp.amazon.com/en_US/"> Print Publishing</a>
+        <a href="https://kdp.amazon.com/en_US/">Made Easy</a>
+        <p>Blink</p>
+        <a href="https://blinkforhome.com/?ref=nav_footer">Smart Security</a>
+        <a href="https://blinkforhome.com/?ref=nav_footer">for Every Home</a>
+      </ul>
+      <ul>
+        <span class="foot-title">
+          <p>AbeBooks</p>
+        </span>
+        <a href="https://www.abebooks.com/">Books, art</a>
+        <a href="https://www.abebooks.com/"> & collectibles</a>
+        <p>Amazon Web Services</p>
+        <a href="https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter">Scalable
+          Cloud</a>
+        <a href="https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter">Computing</a>
+        <a href="https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=amazonfooter">Services</a>
+        <p>Prime Video Direct</p>
+        <a href="https://videodirect.amazon.com/home/landing">Video</a>
+        <a href="https://videodirect.amazon.com/home/landing">Distribution</a>
+        <a href="https://videodirect.amazon.com/home/landing">Made Easy</a>
+        <p> Neighbors App</p>
+        <a href="https://ring.com/neighbors">Real-Time </a>
+        <a href="https://ring.com/neighbors">Crime</a>
+        <a href="https://ring.com/neighbors"> & Safety Alerts </a>
+      </ul>
+      <ul>
+        <span class="foot-title">
+          <p>ACX</p>
+        </span>
+        <a href="https://www.acx.com/">Audiobook Publishing</a>
+        <a href="https://www.acx.com/">Made Eas</a>
+        <p>Audible</p>
+        <a
+          href="https://www.audible.in/?ref=Adbl_ip_rdr_from_US&source_code=AUDTM002080318002F&ipRedirectFrom=US&ipRedirectOriginalURL=">Listen
+          to Books &
+          <a
+            href="https://www.audible.in/?ref=Adbl_ip_rdr_from_US&source_code=AUDTM002080318002F&ipRedirectFrom=US&ipRedirectOriginalURL=">Original</a>
+          <a
+            href="https://www.audible.in/?ref=Adbl_ip_rdr_from_US&source_code=AUDTM002080318002F&ipRedirectFrom=US&ipRedirectOriginalURL=">Audio
+            Performances</a>
+          <p>Shopbop</p>
+          <a href="https://www.shopbop.com/">Designer</a>
+          <a href="https://www.shopbop.com/">Fashion Brands</a>
+          <p> Amazon Subscription Boxes</p>
+          <a href="https://www.amazon.com/gp/browse.html?node=14498690011&ref_=amzn_nav_ftr_swa">Top subscription boxes
+          </a>
+          <a href="https://www.amazon.com/gp/browse.html?node=14498690011&ref_=amzn_nav_ftr_swa"> -right to your
+            door</a>
+      </ul>
+      <ul>
+        <span class="foot-title">
+          <p>Sell on Amazon</p>
+        </span>
+        <a href="https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell">Start a Selling</a>
+        <a href="https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell"> Account</a>
+        <p> Box Office Mojo </p>
+        <a href="https://www.boxofficemojo.com/?ref_=amzn_nav_ftr"> Find Movie</a>
+        <a href="https://www.boxofficemojo.com/?ref_=amzn_nav_ftr">Box Office Data</a>
+        <p> Woot! </p>
+        <a href="https://www.woot.com/">Deals and</a>
+        <a href="https://www.woot.com/">Shenanigans</a>
+        <p> PillPack</p>
+        <a href="https://www.pillpack.com/">Pharmacy </a>
+        <a href="https://www.pillpack.com/">Simplified</a>
+      </ul>
+      <ul>
+        <span class="foot-title">
+          <p>Amazon Business</p>
+        </span>
+        <a href="https://www.amazon.com/business/register/org/landing?ref_=footer_retail_b2b">Everything For</a>
+        <a href="https://www.amazon.com/business/register/org/landing?ref_=footer_retail_b2b"> Your Business</a>
+        <p>Goodreads</p>
+        <a href="https://www.goodreads.com/">Book reviews &</a>
+        <a href="https://www.goodreads.com/">recommendations</a>
+        <p>Zappos</p>
+        <a href="https://www.zappos.com/">Shoes &</a>
+        <a href="https://www.zappos.com/">Clothing</a>
+      </ul>
+    </div>
+    <div class="foot-panel4">
+      <div class="pages">
+        <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508088&ref_=footer_cou">Conditions of
+          Use</a>
+        <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496&ref_=footer_privacy">Privacy
+          Notice</a>
+        <a href="https://www.amazon.com/privacyprefs?ref_=footer_iba">Your Ads Privacy Choices</a>
+      </div>
+      <div class="copyright">
+        © 1996-2023, Amazon.com, Inc. or its affiliates
+      </div>
+      <div class="copyright">© Anamuddin Ahmad All rights Reserved here</div>
+    </div>
+  </footer>
+</body>
+
+</html>
